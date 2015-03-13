@@ -1,0 +1,11 @@
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 30%;
+  margin-top: -200px;
+  margin-left: -200px;
+}
+
+body {
+  background-image: url("snakeimg.jpg");
+}
