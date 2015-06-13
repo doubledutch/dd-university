@@ -1,0 +1,97 @@
+html, body
+{
+    background-color: #323637; 
+    height: 100%;
+}
+
+#logo
+{
+    object-fit: contain; /* Do not scale the image */
+    object-position: center;
+    min-width: 100%;
+    max-width:75%;
+    max-height:250px;
+    margin-top: 32px;
+}
+
+#dd-title 
+{
+    height: 42px;
+    padding: 15px 100px;
+    background: url('../img/doubledutch-logo.svg') no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 8px;
+    background-size: contain;
+    transition: all .2s ease-in-out;
+}
+
+#dd-subtitle 
+{
+    margin-top: 24px;
+    font-size: 150%;
+    font-style: bold;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    opacity: .7;
+    color: white;
+}
+
+.center-text 
+{
+    text-align: center;
+}
+
+.fancy {
+    line-height: 0;
+    text-align: center;
+}
+.fancy span {
+    display: inline-block;
+    position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 1px solid white;
+    top: 0;
+    width: 50px;
+}
+.fancy span:before {
+    right: 100%;
+    margin-right: 8px;
+}
+.fancy span:after {
+    left: 100%;
+    margin-left: 8px;
+}
+
+#course-container {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+.link {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    position: relative;
+    padding-left: 6px;
+    /* Font styles */
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: Gainsboro;
+}
+
+.link:before {
+    content: "\25BA";
+    font-size: 80%;
+    padding-right: 3px;
+    pointer-events: none;
+}
+
+.link:hover:before {
+    color: white;
+}
