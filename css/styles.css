@@ -17,6 +17,7 @@ html, body
 .subtitle 
 {
     width: 80%;
+    max-width: 560px;
     padding-top: 48px;
     padding-bottom: 8px;
     font-size: 150%;
